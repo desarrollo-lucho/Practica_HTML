@@ -81,13 +81,12 @@ body{
 }
 
 #lateral{
-    width: 20%;
-    min-height: 650px;
+    width: 15%;
+    min-height: 600px;
     float: left;
-    border: 1px solid red;
     margin-top: 20px;
     margin-left: 10px;
-    border: 1px solid red;
+
 }
 
 #lateral .block_aside{
@@ -134,8 +133,9 @@ input[type="email"]:focus{
     color: black;
 }
 
+input[type="submit"],
 input[type="button"],
-input[type="submit"]{
+.button{
     display: block;
     border-radius: 2px;
     padding: 5px;
@@ -145,6 +145,68 @@ input[type="submit"]{
     background: #2979cd;
     border: 1px solid #11608e;
     cursor: pointer;
+}
+
+.button{
+    background: greenyellow;
+    color: white !important;
+    text-decoration: none;
+}
+
+#central{
+    width: 78%;
+    min-height: 600px;
+    float: right;
+    border: 1px solid #ccc;
+    box-shadow: -5px -1px 5px #ddd;
+    padding: 25px;
+}
+
+#central h1{
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.product{
+    width: 30%;
+    border: 1px solid red;
+    float: left;
+    margin-left: 1px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.product img{
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.product h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product p{
+    font-weight: bold;
+    counter-reset: #444;
+    margin-bottom: 10px;
+}
+
+.product a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.product a:hover{
+    color: blue;
 }
 
 
@@ -157,3 +219,4 @@ input[type="submit"]{
     color: white;
     border-top: 5px solid #01b1ea;
 }
+
