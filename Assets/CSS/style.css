@@ -12,13 +12,13 @@ etiqueta de clase = .
 }
 
 body{
-    background: lightgrey;
+    background: lightgray;
 }
 
 #container{
     width: 80%;
     margin: 0px auto;
-    box-shadow: 0px 0px 10px lightskyblue;
+    box-shadow: 0px 0px 50px lightskyblue;
     border: 1px solid black;
     background: white;
 }
@@ -28,8 +28,8 @@ body{
 }
 
 #logo{
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 0px;
     float: left;
 }
 
