@@ -1,35 +1,35 @@
 /*
 etiqueta normal = nada
-etiqueta universal = * 
-etiqueta de id= #
-etiqueta de clase = . 
+etiqueta universal = *
+etiqueta id = #
+etiqueta class = .
 */
+
 *{
-    padding: 0%;
-    margin: 1px;
+    padding: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
-body{
+body {
     background: lightgray;
 }
 
 #container{
     width: 80%;
     margin: 0px auto;
-    box-shadow: 0px 0px 50px lightskyblue;
+    box-shadow: 0px  0px 10px 10px gray;
     border: 1px solid black;
     background: white;
 }
 
 #header{
-    background: lightcyan;
+    height: 145px;
+    background: #f0f0f0;
 }
 
 #logo{
-    padding: 10px;
-    margin: 0px;
+    padding: 20px;
+    margin-left: 20px;
     float: left;
 }
 
@@ -41,9 +41,9 @@ body{
 #menu{
     clear: both;
     background: #222;
-    color: aliceblue;
-    border-bottom: 4px solid #01b1ea;
+    color: white;
     height: 55px;
+    border-bottom: 4px solid #01B1EA;
 }
 
 #menu ul{
@@ -54,24 +54,24 @@ body{
 }
 
 #menu ul li{
+    line-height: 55px;
     float: left;
     border-right: 1px solid #363636;
-    line-height: 55px;
 }
 
 #menu a{
     display: block;
-    color: blanchedalmond;
+    color: white;
     text-decoration: none;
     padding-left: 12px;
-    padding-right: 12px;transition: all 300ms;
-    
+    padding-right: 12px;
+    transition: all 300ms;
 }
 
 #menu a:hover{
-    background-color: aquamarine;
-    transition: 1.5s;
+    background: #01B1EA;
 }
+
 
 /*content*/
 #content{
@@ -96,7 +96,6 @@ body{
     padding: 10px;
     border: 1px solid blue;
 }
-
 #lateral h3{
     display: block;
     color: #222;
@@ -107,8 +106,9 @@ body{
     margin-bottom: 15px;
     font-size: 16px;
     font-weight: bold;
-    background: #e1e1e1;
-    border: 2px solid #1d865e;
+    background: #E1E1E1;
+    border: 2px solid #01b1EA;
+    
 }
 
 input[type="text"],
@@ -118,23 +118,24 @@ input[type="email"]{
     width: 95%;
     margin-top: 2px;
     margin-bottom: 2px;
-    border: 1px solid #c9c9c9;
-    box-shadow: 0px 0px 2px #ccc inset;
+    border: 1px solid #C9C9C9;
+    box-shadow: 0px 0px 2px #CCC inset;
     background: white;
     padding: 2px;
     color: gray;
     transition: all 300ms;
+    
 }
 
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus{
-    border: 1px solid #1579b5;
+    border: 1px solid #1579B5;
     color: black;
 }
 
-input[type="submit"],
 input[type="button"],
+input[type="submit"],
 .button{
     display: block;
     border-radius: 2px;
@@ -142,24 +143,25 @@ input[type="button"],
     padding-left: 10px;
     padding-right: 10px;
     color: white;
-    background: #2979cd;
-    border: 1px solid #11608e;
+    background: #2979CD;
+    border: 1px solid #040607;
     cursor: pointer;
 }
 
 .button{
-    background: greenyellow;
+    background: #33AE3D;
     color: white !important;
     text-decoration: none;
 }
 
 #central{
-    width: 78%;
-    min-height: 600px;
+    width: 74%;
+    min-height: 550px;
     float: right;
-    border: 1px solid #ccc;
+    border-left: 1px solid #ccc;
     box-shadow: -5px -1px 5px #ddd;
     padding: 25px;
+
 }
 
 #central h1{
@@ -177,14 +179,14 @@ input[type="button"],
     width: 30%;
     border: 1px solid red;
     float: left;
-    margin-left: 1px;
+    margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 30px;
     text-align: center;
-}
 
+}
 .product img{
-    height: 150px;
+    height: 80px;
     margin-bottom: 10px;
 }
 
@@ -195,28 +197,27 @@ input[type="button"],
 
 .product p{
     font-weight: bold;
-    counter-reset: #444;
+    counter-reset: #555;
     margin-bottom: 10px;
 }
 
 .product a{
     color: black;
     text-decoration: none;
-    padding-bottom: 30px;
+
 }
 
 .product a:hover{
-    color: blue;
+    color:#555;
 }
 
 
 #footer{
-    clear: both;
+    clear:both;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 5px;
     background: #222;
     color: white;
-    border-top: 5px solid #01b1ea;
+    border-top: 5px solid #01b1EA;
 }
-
